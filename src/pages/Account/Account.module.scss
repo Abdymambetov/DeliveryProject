@@ -1,0 +1,97 @@
+.accountBlock {
+  padding: 30px 0 100px;
+  background: #f4f4f4;
+  min-height: 100vh;
+
+  &__inner {
+    .profile {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      background: transparent;
+
+      h3 {
+        color: var(--Black, #222);
+        // background: red;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      img {
+        display: block;
+        width: 16px;
+        height: 16px;
+      }
+    }
+    h4 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 20px 0px 8px;
+      // background: red;
+      height: 21px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    p {
+      color: var(--Orange, #ffc12e);
+      font-family: Gilroy;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      height: 27px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .editLocation {
+      margin: 16px 0 0 0;
+      padding: 0 0 20px 0;
+      border-bottom: 2px solid #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        height: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      > button {
+        color: var(--Orange, #ffc12e);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        background: transparent;
+        padding: 5px;
+      }
+    }
+    .btnContact {
+      color: var(--Black, re);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      display: block;
+      background: transparent;
+      margin: 12px 0 0 0;
+    }
+  }
+}

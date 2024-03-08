@@ -1,0 +1,70 @@
+.orderBlock {
+  padding: 20px 0 40px;
+  &__inner {
+    .prevBacket {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: transparent;
+      p {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      img {
+        display: block;
+        width: 20px;
+        height: 20px;
+        // object-fit: contain;
+      }
+    }
+
+    .noneFoods {
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        text-align: center;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .pay {
+      border-bottom: 1px solid var(--Gray-Line-2, #e4e4e4);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 0px 16px 8px;
+      p {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      span {
+        color: var(--Orange, #ffc12e);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .addOrder {
+      padding: 30px 0px;
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

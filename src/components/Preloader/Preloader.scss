@@ -1,0 +1,48 @@
+.preloader__container {
+  display: flex;
+  //   align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #ffc12e;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  padding: 200px 0 0 0;
+  top: 0;
+  left: 0;
+
+  > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    .logoPreloader {
+      width: 170px;
+      height: 124px;
+      margin: 0 10px 0 0;
+    }
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.preloader {
+  width: 65px;
+  height: 65px;
+  animation: spin 1s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

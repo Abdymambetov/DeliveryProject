@@ -1,0 +1,104 @@
+.welcome {
+  background: #f7f7f7;
+  height: 100vh;
+  padding: 60px 0px 0 0;
+  min-height: 700px;
+  position: relative;
+  &__inner {
+    h2 {
+      color: var(--Black, #222);
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    p {
+      color: var(--Black, #222);
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .name {
+      width: 100% !important;
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.8px;
+      border-radius: 8px;
+      background: var(--White, #fff);
+      height: 60px;
+      border: none;
+      padding: 16px;
+      width: 95%;
+      margin: 50px auto 0;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .agreement {
+      position: absolute;
+      bottom: 50px;
+      width: 95%;
+      transform: translateX(-50%);
+      left: 50%;
+      span {
+        display: block;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 00px 0 0 0;
+      }
+      b {
+        margin: 10px 0 0 0;
+        display: block;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .checkbox {
+        display: flex;
+        align-items: center;
+        padding: 23px 0 0 0;
+        label {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin: 0 0 0 5px;
+        }
+      }
+      button {
+        width: 100%;
+        display: block;
+        border-radius: 8px;
+        margin: 52px 0 0 0;
+        background: #ffc12e;
+        height: 60px;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

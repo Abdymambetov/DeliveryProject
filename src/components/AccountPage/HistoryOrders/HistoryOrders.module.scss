@@ -1,0 +1,98 @@
+.history {
+  h5 {
+    color: #222;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #f4f4f4;
+  }
+
+  li {
+    margin: 20px 0px;
+    background: #fff;
+    padding: 18px 8px;
+    border-radius: 10px 8px;
+
+    .viewFood {
+      display: flex;
+      align-items: center;
+      > img {
+        width: 120px;
+        height: 90px;
+        display: block;
+        // object-fit: contain;
+      }
+      > div {
+        padding: 12px;
+        // background: red;
+        width: 100%;
+        span {
+          display: block;
+          color: var(--Orange, #ffc12e);
+          font-family: Gilroy;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        p {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin: 5px 0px 0 0;
+        }
+        b {
+          display: block;
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    .moreInfo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 12px 0 0 0;
+      p {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        button {
+          padding: 8px 10px;
+          font-size: 12px;
+        }
+        button:nth-child(1) {
+          padding: 8px;
+        }
+      }
+    }
+  }
+  .noneData {
+    color: #222;
+    font-family: Gilroy;
+    padding: 200px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+

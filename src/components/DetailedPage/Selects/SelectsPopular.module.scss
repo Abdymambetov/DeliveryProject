@@ -1,0 +1,48 @@
+.selectBlock {
+  position: relative;
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 200px;
+    padding: 5px 0px;
+    cursor: pointer;
+
+    p {
+      color: var(--Black, #222);
+      text-align: right;
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 15px;
+    }
+
+    img {
+      width: 14px;
+      height: 14px;
+      display: block;
+      transform: rotate(270deg);
+      transition: 0.5s;
+    }
+  }
+
+  &__activeBlock {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 10;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+
+    p {
+      color: var(--Gray-Text, #828282);
+      font-family: Gilroy;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+}

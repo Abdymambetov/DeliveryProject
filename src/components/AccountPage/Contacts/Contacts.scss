@@ -1,0 +1,48 @@
+.contacts {
+  ul {
+    border-bottom: 2px solid #e4e4e4;
+    padding: 0 0 10px 0;
+    li {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      p {
+        color: #828282;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 8px 0;
+      }
+      span {
+        color: #ffc12e;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+  h5 {
+    color: var(--Black, #222);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 0 0 0;
+  }
+  p {
+    color: var(--Black, #222);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,94 @@
+.sarchBlock {
+  //   height: 100vh;
+  padding: 40px 0 0 0;
+  width: 100%;
+  background-color: #f7f7f7;
+  &__inner {
+    form {
+      position: relative;
+      input {
+        width: 100%;
+        height: 60px;
+        border-radius: 8px;
+        border: 1.5px solid var(--Orange, #ffc12e);
+        background: var(--White, #fff);
+        padding: 0px 200px 0 10px;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        // background: red;
+      }
+      button {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0;
+        height: 60px;
+        width: 70px;
+        border-radius: 0px 8px 8px 0px;
+        background: var(--Orange, #ffc12e);
+      }
+      .selectInput {
+        position: absolute;
+        // height: 60px;
+        display: flex;
+        max-width: 100px;
+        // overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        right: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+        @media screen and (max-width: 550px) {
+          right: 18%;
+        }
+        @media screen and (max-width: 450px) {
+          right: 22%;
+        }
+        @media screen and (max-width: 380px) {
+          right: 24%;
+        }
+      }
+    }
+    > div {
+      margin: 55px 0 100px 0;
+      position: relative;
+    }
+    i {
+      display: block;
+      text-align: center;
+    }
+    .recomSearch {
+      width: 100%;
+      margin: 30px 0 0 0;
+      padding: 0 0 0 5px;
+      h4 {
+        color: #222;
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        margin: 0 0 12px 0;
+      }
+      p {
+        color: #828282;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 17px;
+        margin: 8px 0;
+      }
+    }
+  }
+}

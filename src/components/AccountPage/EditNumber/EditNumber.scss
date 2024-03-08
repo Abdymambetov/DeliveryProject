@@ -1,0 +1,26 @@
+.editNumber {
+  form {
+    // width: 350px;
+    width: 100%;
+    // background: red;
+    margin: 0 auto;
+    input {
+      padding: 16px;
+      width: 100%;
+      height: 60px;
+      border: none;
+      font-size: 22px;
+      border-radius: 8px;
+      margin: 0 0 16px 0;
+      color: black;
+      background: #f4f4f4;
+    }
+    button {
+      width: 100%;
+    }
+    label {
+      margin: 10px 0 0 0;
+      display: block;
+    }
+  }
+}

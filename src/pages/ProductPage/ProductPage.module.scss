@@ -1,0 +1,150 @@
+.producblock {
+  padding: 20px 0px 150px;
+  background: #f7f7f7;
+
+  &__path {
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    @media screen and (max-width: 414px) {
+      padding: 0 10px;
+    }
+  }
+
+  &__inner {
+    margin: 24px 0 0 0;
+    .mainContent {
+      width: 100%;
+      position: relative;
+      .mainImg {
+        position: relative;
+        width: 100%;
+        height: 250px;
+      }
+
+      .mainImg::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 1;
+        opacity: 0.3;
+      }
+      .mainText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 40px;
+        width: 90%;
+        margin: 0 auto;
+        z-index: 2;
+        > div {
+          // container(пришлось поменять стили в этом компоненте)
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 40px;
+        }
+        .mainContent__up {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          
+          h4 {
+            color: var(--White, #fff);
+            font-family: Gilroy;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            // background: blue;
+            height: 85px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            // white-space: nowrap;
+          }
+          img {
+            display: block;
+            width: 80px;
+            height: 80px;
+          }
+        }
+        .mainContent__down {
+            // background: red;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          gap: 8px;
+
+          div {
+            > div {
+              display: flex;
+              //   justify-content: center;
+              align-items: center;
+              gap: 5px;
+              border-radius: 4px;
+              background: var(--White, #fff);
+              padding: 5px;
+
+              img {
+                width: 14px;
+                height: 14px;
+              }
+              span {
+                color: var(--Gray-Text, #828282);
+                font-family: Gilroy;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              p {
+                color: var(--Black, #222);
+                font-family: Gilroy;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+          &Three,
+          &Two {
+            width: 90% !important;
+            display: flex;
+            justify-content: end;
+            gap: 8px;
+          }
+        }
+      }
+    }
+  }
+  &__moreData {
+    p {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 16px 0 8px;
+    }
+    b {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      display: block;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0 0 24px 0;
+    }
+  }
+}

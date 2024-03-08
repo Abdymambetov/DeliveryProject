@@ -1,0 +1,22 @@
+.btnLogOut {
+  color: var(--Gray-Text, #828282);
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px 0 24px;
+  background: transparent;
+  .modalLogOut {
+    background: red !important;
+    button {
+      // background: "transparent",
+      // fontSize: "20px",
+      // backgroundColor: "green",
+      // padding: "5px 25px",
+      // borderRadius: "5px",
+      // color: "#fff",
+      background: red !important;
+    }
+  }
+}

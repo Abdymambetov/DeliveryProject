@@ -1,0 +1,88 @@
+.mainInfo {
+  background: #ffc12e;
+  height: 100vh;
+  padding: 50px 0px;
+  text-align: center;
+  position: relative;
+  &__inner {
+    .mainContent {
+      height: 280px;
+      h1 {
+        color: var(--Black, #222);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 40px 0 5px 0;
+      }
+      p {
+        color: var(--Black, #222);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 30px 0;
+      }
+    }
+    ul {
+      bottom: -50px !important;
+      li {
+        button::before {
+          color: white;
+          opacity: 1 !important;
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+  &__foods {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 260px !important;
+    height: 260px !important;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .line {
+    width: 90%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    > div {
+      width: 50%;
+      height: 5px;
+      border-radius: 5px;
+      background-color: black;
+    }
+  }
+  &__next {
+    position: absolute;
+    right: 10px;
+    height: 60%;
+    width: 30px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    // background-color: red;
+    cursor: pointer;
+    display: block;
+  }
+}

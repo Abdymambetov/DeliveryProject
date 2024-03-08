@@ -1,0 +1,61 @@
+.delivery {
+  height: 90vh;
+  position: relative;
+  min-height: 650px;
+
+  > h4 {
+    color: var(--Black, #222);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  > p {
+    color: #eb5757;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 20px 0;
+  }
+  > div {
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  form {
+    input {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+      background: var(--Gray-BG, #fff);
+      border: none;
+      margin: 0 0 12px 0;
+      height: 62px;
+      padding: 0px 16px;
+    }
+    > img {
+      width: 100%;
+      height: 240px;
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    button {
+      width: 100%;
+      margin: 10px 0 0 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}

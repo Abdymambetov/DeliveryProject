@@ -1,0 +1,66 @@
+.formConfirm {
+  // width: 350px;
+  width: 100%;
+  // background: red;
+  margin: 0 auto;
+
+  .inputs {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    input {
+      width: 84px;
+      height: 60px;
+      padding: 16px;
+      border-radius: 8px;
+      background: #f4f4f4;
+      border: none;
+      text-align: center;
+      color: var(--Gray-Text, #828282);
+      font-family: Gilroy;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.96px;
+      text-transform: uppercase;
+    }
+  }
+  .btnSend {
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto 15px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    border-radius: 8px;
+  }
+  button {
+    width: 100%;
+    display: block;
+    color: var(--White, #fff);
+    text-transform: uppercase;
+    background-color: black;
+    margin: 0 0 20px 0;
+  }
+  label,
+  span {
+    margin: 10px 0 0 0;
+    color: var(--Gray-Text, #828282);
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+  span {
+    margin: 0 0 0 5px;
+  }
+}

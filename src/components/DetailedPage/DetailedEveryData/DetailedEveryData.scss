@@ -1,0 +1,86 @@
+.everyProd {
+  padding: 0 0 200px 0;
+  &__img {
+    width: 100%;
+    margin: 5px 0 0 0;
+    height: 267px;
+    > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      object-fit: contain;
+    }
+  }
+  &__text {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0px;
+    > p {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    > span {
+      color: var(--Gray-Text, #828282);
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > div {
+      padding: 12px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 150px;
+      border-radius: 8px;
+      background: var(--Gray-Line-2, #e4e4e4);
+      button {
+        font-size: 20px;
+        background: transparent;
+      }
+    }
+    > button {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.72px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      background: var(--Orange, #ffc12e);
+      padding: 12px 35px;
+    }
+  }
+  h6 {
+    color: var(--Black, #222);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 16px 0 5px 0;
+  }
+  b {
+    display: block;
+    color: var(--Gray-Text, #828282);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

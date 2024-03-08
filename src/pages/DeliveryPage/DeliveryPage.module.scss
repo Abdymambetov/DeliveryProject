@@ -1,0 +1,150 @@
+.deliveryMain {
+  padding: 20px 0 100px;
+  background: #f7f7f7;
+  > div{
+    padding: 0px !important;
+  }
+  .path {
+    padding: 10px 15px 20px;
+  }
+  &__inner {
+    .deliveryMain__texts {
+      padding: 0 16px;
+    }
+    h4 {
+      color: var(--Orange, #ffc12e);
+      font-family: Gilroy;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      i {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    h5 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 10px 0 20px 0;
+    }
+    p {
+      color: var(--Gray-Text, #828282);
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0 0 15px 0;
+    }
+    h6 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 24px 0 34px 0;
+    }
+    form {
+      padding: 12px 16px 24px;
+      background: #fff;
+      input {
+        border-radius: 8px;
+        background: var(--Gray-BG, #f4f4f4);
+        height: 42px;
+        border: none;
+        padding: 0 16px;
+        width: 100%;
+        color: var(--Gray-Text, #828282);
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 12px 0;
+      }
+      label {
+        margin: 24px 0 12px 0;
+        display: block;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .gruz {
+        display: flex;
+        // justify-content: start;
+        align-items: center;
+        gap: 10px;
+        > div {
+          min-width: 24px;
+          height: 24px;
+          background-color: #e4e4e4;
+          border-radius: 50%;
+        }
+        .activeBtn {
+          background: #ffc12e !important;
+        }
+        p {
+          margin: 0;
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      button {
+        width: 100%;
+        margin: 0 0 8px 0;
+      }
+      .inputBtn {
+        // display: flex;
+        padding: 10px 0px 30px 0px;
+        gap: 32px;
+        align-items: center;
+        .innerTypes {
+          display: flex;
+          gap: 32px;
+          align-items: center;
+          padding: 0 0 20px 0;
+        }
+        .innerTypesClick {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          > div {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #d4d4d4;
+          }
+          > p {
+            margin: 0;
+            color: var(--Black, #222);
+            font-family: Gilroy;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .activeBtn {
+          background: #ffc12e !important;
+        }
+      }
+    }
+  }
+}

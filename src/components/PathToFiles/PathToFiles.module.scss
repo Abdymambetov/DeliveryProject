@@ -1,0 +1,55 @@
+.pathBlock {
+  .back {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    button:nth-child(1) {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    button:nth-child(1)::before {
+      content: '' !important;
+    }
+
+    button {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0 0 0 5px;
+      background: transparent;
+      position: relative;
+      padding: 0 0 0 15px;
+      
+    }
+
+    button::before {
+      content: '/';
+      color: black;
+      font-size: 18px;
+      transform: translateY(-50%);
+      top: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 1px;
+    }
+
+    button:last-child {
+      color: #ffc12e;
+      font-family: Gilroy;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

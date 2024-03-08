@@ -1,0 +1,54 @@
+.caregoryBlock {
+  padding: 20px 0 60px;
+  background: #F7F7F7;
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+
+    .everyCategory {
+      display: flex;
+      width: 46%;
+      height: 177px;
+      justify-content: space-between;
+      position: relative;
+      border-radius: 8px;
+      background: var(--White, #fff);
+      // background: linear-gradient(180deg, rgba(107, 107, 107, 0.00) 0%, rgba(51, 46, 46, 0.23) 100%);
+      // box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.499);
+      // @media screen and (max-width: 414px) {
+      //   width: 160px;
+      //   height: 165px;
+      // }
+      img {
+        display: block;
+        width: 124px;
+        height: 124px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0px 8px 0px 0px;
+        // background: green;
+      }
+      h4 {
+        position: absolute;
+        left: 12px;
+        bottom: 12px;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        // background: red;
+        width: 85%;
+        min-height: 25px;
+        max-height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

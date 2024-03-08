@@ -1,0 +1,271 @@
+.alldataRestorans {
+ 
+  .everyData {
+    // height: 190px;
+    display: block;
+    width: 100%;
+    position: relative;
+    // box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+    // border-radius: 8px;
+    // @media screen and (max-width: 382px) {
+    //   width: 200px;
+    // }
+
+    border-bottom: 2px solid var(--Gray-Line-2, #e4e4e4);
+    padding: 20px 0 20px 0;
+    .imgs {
+      position: relative;
+      width: 100%;
+      height: 290px;
+       @media screen and (max-width: 470px) {
+          height: 230px;
+        }
+        @media screen and (max-width:390px) {
+          height: 190px;
+        }
+      > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+      }
+    }
+    .logo {
+      width: 80px !important;
+      height: 80px !important;
+      position: absolute;
+      left: 8px;
+      bottom: 8px;
+      border-radius: 4px;
+      background-color: #fff;
+      z-index: 5;
+    }
+
+    .types {
+      top: 8px;
+      left: 8px;
+      position: absolute;
+      border-radius: 4px;
+      background: #9b51e0;
+      padding: 4px 8px;
+      color: #fff;
+      font-family: Gilroy;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    &__inner {
+      padding: 0 5px 5px;
+      &__mainBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 12px 0 !important;
+        > a {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          border-radius:5px;
+          background: #ffc12e;
+          padding: 8px 10px;
+        }
+      }
+      h4 {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin: 4px 0 0 0;
+
+        img {
+          width: 14px;
+          height: 14px;
+        }
+        span {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        p {
+          color: var(--Gray-Text, #828282);
+          font-family: Gilroy;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .checkList {
+        justify-content: flex-start !important;
+        gap: 25px;
+        > div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          // width: 50%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+ 
+}
+.alldataFoods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 35px;
+  flex-wrap: wrap;
+  padding: 65px 0 100px 0;
+  margin: 0 !important;
+  position: static !important;
+  // background: red;
+  @media screen and (max-width: 420px) {
+    gap: 15px 8px;
+  }
+  // @media screen and (max-width: 382px) {
+  //   gap: 20px;
+  // }
+  > li {
+    width: 200px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: relative;
+    @media screen and (max-width: 465px) {
+      width: 177px;
+    }
+    @media screen and (max-width: 384px) {
+      width: 166px;
+    }
+
+    .types {
+      top: 8px;
+      left: 8px;
+      position: absolute;
+      border-radius: 4px;
+      background: #9b51e0;
+      padding: 4px 8px;
+      color: #fff;
+      font-family: Gilroy;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .imgFood {
+      width: 100%;
+      height: 134px;
+      border-radius: 8px 8px 0 0;
+      padding: 0px;
+      background: #fff;
+      @media screen and (max-width: 465px) {
+        height: 118px;
+
+      }
+      @media screen and (max-width: 384px) {
+        height: 110px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px 8px 0 0;
+        object-fit: contain;
+        /////////////////asdsadsadsad
+      }
+    }
+
+    h6 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 49px;
+      @media screen and (max-width: 384px) {
+        font-size: 14px;
+        height: 44px;
+      }
+    }
+    i {
+      color: #ffc12e;
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: left;
+      padding: 0 5px;
+      height: 18px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+
+      p {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      span {
+        color: #828282;
+        font-family: Gilroy;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    button {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      padding: 12px 16px;
+      border-radius: 0 0 8px 8px;
+      background: var(--Orange, #ffc12e);
+      width: 100%;
+      margin: 5px 0 0 0;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.basketBlock__every {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  margin: 16px 0;
+  border-bottom: 2px solid #e4e4e4;
+  padding: 0 0 16px 0;
+
+  .mainImg {
+    img {
+      display: block;
+      width: 80px;
+      height: 60px;
+    }
+  }
+
+  .mainInfo {
+    //   background: red;
+    width: 100%;
+
+    h4 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    p {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+    border-radius: 8px;
+    background: var(--Gray-Line-2, #e4e4e4);
+    width: 92px;
+
+    button,
+    p {
+      color: var(--Black, #222);
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      background-color: transparent;
+    }
+  }
+}

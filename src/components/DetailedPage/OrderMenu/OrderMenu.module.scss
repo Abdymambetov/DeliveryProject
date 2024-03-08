@@ -1,0 +1,97 @@
+.accordinBlock {
+  transform: rotate(180deg);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    transform: rotate(180deg);
+
+    &__btns {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .active {
+        transform: rotate(270deg);
+        transition: 0.5s;
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        gap: 4px;
+
+        img {
+          transform: rotate(90deg);
+        }
+
+        p {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        p {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        span {
+          color: var(--Orange, #ffc12e);
+          font-family: Gilroy;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+    > button {
+      color: var(--Black, #222);
+      text-align: center;
+      font-family: Gilroy;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.72px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      background: var(--Orange, #ffc12e);
+      width: 100%;
+      padding: 20px 32px;
+      margin: 20px 0;
+    }
+  }
+  .openContent {
+    transform: rotate(180deg);
+  }
+  .basketBlock {
+    transform: rotate(180deg);
+    height: 300px;
+    overflow-y: scroll;
+    > p {
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

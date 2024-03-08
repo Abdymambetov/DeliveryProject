@@ -1,0 +1,55 @@
+.selectBlock {
+  position: relative;
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 5px 0px 5px 5px;
+    cursor: pointer;
+    // min-width: 60px;
+    // max-width: 100px;
+    // justify-content: center;
+    width: 115px;
+
+    p {
+      color: var(--Gray-Text, #828282);
+      text-align: right;
+      font-family: Gilroy;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+      text-align: left;
+      // background: red;
+    }
+
+    img {
+      width: 12px;
+      height: 12px;
+      display: block;
+      transform: rotate(270deg);
+      transition: 0.5s;
+    }
+  }
+
+  &__activeBlock {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 50;
+    background-color: #fff;
+    padding: 20px 5px 10px;
+    border-radius: 8px;
+
+    p {
+      color: var(--Gray-Text, #828282);
+      text-align: right;
+      font-family: Gilroy;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px;
+      text-align: left;
+    }
+  }
+}

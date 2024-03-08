@@ -1,0 +1,38 @@
+.navSearch {
+    &__inner {
+        width: 100%;
+        height: 40px;
+        // background: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 50px;
+        height: 40px;
+        justify-content: space-between;
+    }
+    &__main {
+        width: 40px;
+        height: 40px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__contacts {
+        > button {
+            border-radius: 6px;
+            border: 1px solid var(--Yellow, #ffc12e);
+            background: var(--Yellow, #ffc12e);
+            height: 37px;
+            padding: 0 10px;
+            color: var(--Black, #222);
+            font-family: Gilroy;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+}

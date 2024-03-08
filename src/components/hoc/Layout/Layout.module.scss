@@ -1,0 +1,26 @@
+.errorSendOrder,
+.goodSendOrder {
+  height: 100vh;
+  background: #ffc12e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: var(--Black, #222);
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    padding: 0 10px;
+  }
+}
+.goodSendOrder {
+  background: #ffc12e;
+}

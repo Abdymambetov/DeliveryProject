@@ -1,0 +1,255 @@
+.orderList {
+  padding: 20px 0 100px;
+  background: #f7f7f7;
+  > div {
+    padding: 0 !important;
+  }
+  .path {
+    padding: 10px 14px 20px;
+  }
+  &__inner {
+    > div {
+      padding: 0 16px;
+      > h4 {
+        color: var(--Orange, #ffc12e);
+        font-family: Gilroy;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        i {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      > h5 {
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 10px 0 20px 0;
+      }
+      > p {
+        color: var(--Gray-Text, #828282);
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 15px 0;
+      }
+    }
+    
+    h6 {
+      color: var(--Black, #222);
+      font-family: Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 24px 0 34px 0;
+    }
+    form {
+      padding: 12px 16px 24px;
+      background: white;
+      input {
+        border-radius: 8px;
+        background: var(--Gray-BG, #f4f4f4);
+        height: 42px;
+        border: none;
+        padding: 0 16px;
+        width: 100%;
+        color: var(--Gray-Text, #828282);
+        font-family: Gilroy;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 12px 0;
+      }
+      label {
+        margin: 24px 0 12px 0;
+        display: block;
+        color: var(--Black, #222);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      > button {
+        width: 100%;
+        margin: 0 0 8px 0;
+      }
+      .inputBtn {
+        display: flex;
+        padding: 10px 0px 30px 0px;
+        gap: 32px;
+        align-items: center;
+        > div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          > div {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #d4d4d4;
+          }
+        }
+        .activeBtn {
+          background: #ffc12e !important;
+        }
+      }
+
+      .listOrder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0 25px;
+        gap: 12px;
+        .product {
+          width: 100%;
+          margin: 0;
+        }
+        .koll {
+          width: 60%;
+          margin: 0;
+          position: relative;
+          input {
+            margin: 0 !important;
+            padding: 2px 30px 2px 10px;
+          }
+          .type {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+              color: var(--Gray-Text, #828282);
+              text-align: right;
+              font-family: Gilroy;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+            img {
+              height: 12px;
+              width: 12px;
+            }
+          }
+        }
+        .btn {
+          border-radius: 8px;
+          background: #ffc12e;
+          min-width: 42px;
+          height: 42px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 32px;
+        }
+       
+      }
+      .endtext {
+        color: var(--Gray-Text, #828282);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .listProd {
+
+        .blockInput {
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          position: relative;
+          input {
+            margin: 0;
+            padding: 0 35px 0 12px;
+          }
+          > div {
+            width: 24px !important;
+            height: 24px;
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        > p {
+          color: var(--Black, #222);
+          font-family: Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-align: center;
+          padding: 30px 0 60px;
+        }
+        > div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 0px;
+          border-bottom: 2px solid #e1dcdc;
+          transition: 0.5s;
+
+        
+
+          b {
+            color: var(--Black, #222);
+            font-family: Gilroy;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            // background: red;
+            overflow: hidden;
+            // text-overflow: ellipsis;
+            // white-space: nowrap;
+            width: 75%;
+          }
+          // > div {
+          //   display: flex;
+          //   align-items: center;
+          //   justify-content: center;
+          //   gap: 12px;
+          //   width: 80px;
+          //   overflow: hidden;
+          //   text-overflow: ellipsis;
+          //   white-space: nowrap;
+
+          //   > img {
+          //     width: 16px;
+          //     height: 16px;
+          //   }
+          //   span {
+          //     color: var(--Black, #222);
+          //     text-align: right;
+          //     font-family: Gilroy;
+          //     font-size: 15px;
+          //     font-style: normal;
+          //     font-weight: 500;
+          //     line-height: normal;
+          //   }
+          // }
+        }
+      }
+    }
+  }
+}
